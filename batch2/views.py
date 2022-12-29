@@ -237,3 +237,7 @@ def VerifyOTP(request):
             return HttpResponse("verification failed")
 
     return render(request,'verifyotp.html')
+
+
+def new_function(requset):
+    pass
