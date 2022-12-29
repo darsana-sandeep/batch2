@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="POST" class="post-form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="text" name="phone" placeholder="Ente phonenumber">
+    <input type="text" name="otp" placeholder="Enter your OTP">
+        <button type="submit" class="save btn btn-default">Verify</button>
+</form>
+
+</body>
+</html>
